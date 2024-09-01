@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: sans-serif;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background:radial-gradient(
+         rgb(214, 107, 6) 10%,
+         rgb(28, 14, 0) 100%
+         );
+    background-position: center;
+    background-size:100vw;
+    background-repeat: none;
+    padding:30px;
+    text-align:center;
+    width:600px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+}
+
+h1, h2 {
+    margin-bottom:-20px;
+}
+
+
+.steps-list {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 0 30px;
+
+}
+
+li {
+    text-align: left;
+    margin:15px 0;
+}
+
+.note {
+    font-style: italic;
+    background: black;
+    width:90%;
+    margin: 0 auto;
+    padding:20px;
+}
